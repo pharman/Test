@@ -1,0 +1,5 @@
+collection: //div[@class="product "]
+title: div/div/div[@class="productInfo"]/h3/a
+desc: //div[@class="productText"]/p
+unitPrice: div/div[@class="addToTrolleytabBox"]/div/div/div/div/p[@class="pricePerUnit"]
+itemUrl: div/div/div[@class="productInfo"]/h3/a

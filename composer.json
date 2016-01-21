@@ -1,0 +1,23 @@
+{
+    "name": "sainsbury/test",
+    "description": "Test",
+    "require": {
+        "symfony/console": "^3.0",
+        "pimple/pimple": "^3.0",
+        "guzzle/guzzle": "^3.9",
+        "phpunit/phpunit": "^4.8",
+        "symfony/yaml": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Paul Harman",
+            "email": "pwharman@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Test\\": "src/"
+        }
+    }
+}
